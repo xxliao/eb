@@ -6,6 +6,7 @@ wget http://fpdownload.macromedia.com/get/flashplayer/pdc/24.0.0.186/flash_playe
 mkdir /root/Downloads/flashplayer
 tar -zxvf flash_player_npapi_linux.i386.tar.gz -C /root/Downloads/flashplayer
 tar -xjvf firefox-45.6.0esr.tar.bz2 -C /root/Downloads/
+mkdir /root/Downloads/firefox/plugins/
 cp /root/Downloads/flashplayer/libflashplayer.so /root/Downloads/firefox/plugins/libflashplayer.so
 mv /root/Downloads/firefox/ /usr/local/lib/
 ln -s /usr/local/lib/firefox/firefox /usr/bin/firefox
