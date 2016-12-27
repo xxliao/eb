@@ -1,4 +1,4 @@
-﻿#!/bin/sh
+#!/bin/sh
 #get firefox
 wget http://ftp.mozilla.org/pub/firefox/releases/45.6.0esr/linux-i686/en-US/firefox-45.6.0esr.tar.bz2
 #get flash player
