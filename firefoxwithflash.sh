@@ -1,4 +1,5 @@
 #!/bin/sh
+yum -y install glibc.i686 libstdc++.so.6 libXtst.i686 xulrunner.i686 
 #get firefox
 wget https://ftp.mozilla.org/pub/firefox/releases/38.0b1/linux-i686/en-US/firefox-38.0b1.tar.bz2
 #get flash player
